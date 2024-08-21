@@ -1,0 +1,36 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.head
+{
+    color: blueviolet;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: cadetblue;
+}
+.ques
+{
+    margin-left: 2vw;
+}
+.ques:hover
+{
+    text-decoration: underline  ;
+}
+.theory
+{
+    margin-left: 4vw;
+    border: 4px solid black;
+    border-radius: 10px;
+    padding: 2vmin;
+    width: 80vw;
+    margin: auto;
+    font-weight:bold;
+    background-color: rgba(210, 203, 203, 0.88);
+}
+.empty
+{
+    height: 15vh;
+}

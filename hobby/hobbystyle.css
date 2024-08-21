@@ -1,0 +1,184 @@
+body
+{
+	overflow: auto;
+}
+h2
+{
+color : purple;
+text-decoration : underline;
+text-decoration-style : dashed;
+text-decoration-color : blue;
+text-align: center;
+}
+.box1
+{
+	overflow:auto;
+}
+article{
+margin: 20px;
+visibility: hidden;
+}
+
+h2:hover{
+text-align: center;
+}
+
+.hobbies{
+text-align: center;
+margin: 20px;
+display : flex;
+}
+
+.box
+{
+	border-style : dashed;	
+	width : 45vw;
+	margin: auto;
+	margin-right : 1.5vmin;	
+	padding: 5%;
+	max-height : 55vh;
+	z-index: 2;
+	overflow: auto;
+}
+/* .box *
+{
+	margin-top: 10%;
+} */
+.hobbyimg
+{
+	border-style: none;
+	background-image: url("./hobby_img.png");
+	width : 100vw;
+	height : 100vh;
+	position : ABSOLUTE;
+	background-size: cover; 
+	opacity : 0.2;
+}
+main
+{
+	position: relative;
+	top: 15vh;
+}
+main *
+{
+	font-weight: 800;
+}
+.boxes
+{
+	width : 30vw;
+	margin: auto;
+	margin-right : .5vmin;	
+	padding: 0.5vmin;
+	text-decoration:underline;
+	text-decoration-color: blue;
+	color: blueviolet;
+	font-weight: 800;
+}
+.games
+{
+	border-style : dashed;	
+	width: 20vw;
+	margin: auto;
+}
+li
+{
+	list-style: none;
+}
+
+.h{
+	padding : 5px;
+	position: relative;
+	border-style : outset;
+	border-radius : 5px;
+	/* bottom: 80px; */
+	right: 50px;
+}
+
+.h:hover
+{
+	text-decoration: underline;
+}
+
+.h:hover + img
+{
+	opacity: 0.6;
+}
+
+img
+{
+	border : 4px dotted black;
+	width: 10vw;
+}
+
+.imgs:hover + article
+{
+	visibility: visible;
+}
+
+.my_songs
+{
+	text-align: center;
+}
+
+.my_songs span{
+position: relative;
+bottom: 20px;
+}
+
+.my_songs span:hover{
+text-decoration: underline;
+}
+
+.a2{
+position: relative;
+left: 20px;
+}
+
+@media screen and (max-width: 950px)
+{
+	.hobbies
+	{
+		display: block;
+	}
+	.box
+	{
+		padding: 2%;
+		margin: auto;
+		margin-bottom: 2%;
+		align-items: center;
+		overflow: auto;
+	}
+	
+}
+
+@media screen and (max-width: 450px)
+{
+	body
+	{
+		margin: 0;
+		padding: 0;
+		width: 100vw;
+		/* height: 100vh; */
+	}
+	.h
+	{
+		visibility: hidden;
+		display: block;
+	}
+	
+	.box
+	{
+		width: 100%;
+		margin: 0;
+		overflow: auto;
+		border: transparent;
+		align-items: center;
+		word-break: break-all;
+	}
+	
+	.games
+	{
+		width: 80%;
+		margin: auto;
+	}
+}

@@ -1,0 +1,50 @@
+*
+{
+    padding : 0;
+    margin : 0;
+}
+body
+{
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+}
+form
+{
+    border : 3px solid black;
+    z-index: 1;
+    border-radius : 15px;
+    width : 30%;
+    margin : auto;
+    padding : 10px;
+    font-weight : bolder;
+    position : fixed;
+    top: 25%;
+    left : 35%;
+    text-align: center;
+    overflow: auto;
+}
+img
+{
+
+    width : 100vw;
+    height : 100vh;
+    position : ABSOLUTE;
+    background-size: cover; 
+    opacity : 0.5;
+}
+.empty
+{
+    height: 30vh;
+}
+@media screen and (max-width: 768px) {
+    form
+    {
+        width: 80%;
+        margin: auto;
+        left: 10%;
+        top: 20%;
+        overflow: auto;
+    }
+}
+    

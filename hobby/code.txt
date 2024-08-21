@@ -1,0 +1,35 @@
+Our lives are increasingly centered around apps, smart devices and virtual assistants. We spend more time on our laptops, iPads and smart watches than ever before. You’ll probably look at your phone at least twice before finishing this article.
+
+All of these tech devices operate because a software engineer programmed them with the right code.  
+
+For obvious reason, there’s been more and more interest in coding. Coding, also referred to as web development or software engineering, is a rewarding career path that promises a vast array of job  opportunities and professional growth. And even if you pursue a  different line of work, chances are you’ll run into lines of code and wish you could edit it yourself.   If you’re curious what coding is all about, we’re going to give you a full introduction to what coding is. Here are the  basics, as well as some tips for figuring out whether a career in code  is the right path for you.  
+
+Learn to Code with Thinkful
+Take the proven path to a high-income career with professional mentorship and support, flexible ways to pay, and real-world, project-based learning.
+
+VIEW OUR CURRICULUM
+
+
+What is Coding?
+Coding is the practice of building websites and apps by writing out instructions in a programming language. It governs how data is collected, how sites appear to the user, and every aspect of how you engage with the web.  
+
+The background on this page appears the way it does due to lines of code. And when you enter your email address in a pop-up box, code is guiding the way your email is stored and shared.  
+
+Computers can perform extremely fast calculations, complete complex mathematical tasks, and store large amounts of data. It’s fair to say the majority of humans would struggle to keep up.
+
+But computers require a detailed set of instructions to perform these tasks. This is where coding comes in.
+
+Machines use binary code to communicate and operate.  Computer programming (or simply coding) refers to the task of writing  instructions that, once compiled, computers will understand and follow.  It therefore allows us to create a range of different software from operating systems and business packages to mobile apps and video games.  
+
+What Does A Coder Do?
+A professional coder is responsible for building, testing, and enhancing the sites, apps, and software that power our world.  
+
+Some coders choose to specialize in building the user-facing portion of the site (called front-end development). They guide how the site looks and feels.  
+
+Others specialize in the inner operations of the site, or back-end development. They’re called on to set up the infrastructure and make sure data is housed properly.
+
+Professional coders spend most of their time typing out lines of code, checking for  bugs, testing their code on different platforms and devices, and  perfecting it. It requires focus, acute problem-solving skills, and a sharp eye for detail.  
+
+But that doesn’t mean that coders work alone. Many actually work in large teams of software engineers. Together, they build solutions, troubleshoot each other’s work, and try to build the ideal final product  for their company or client. Soft skills like clear communication and  collaboration are key if you want to excel in this field.  
+
+

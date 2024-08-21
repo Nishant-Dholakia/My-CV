@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Feedback</title>
+	<link rel="stylesheet" href="./feedbackstyle.css">
+	<link rel="stylesheet" href="../navstyle.css">
+</head>
+<body>
+	
+	
+	<h1 id="header"> Feedback Form </h1> 
+	<nav class="mainnav">
+        <div class="nav1">_Dholakia_Nishant_</div>
+        <div class="nav2">
+            <div class="menu">
+                    <div><a href="../main.html">Home</a></div>
+                    <div><a href="../academics/qualifications.html">My Academics</a></div>
+                    <div><a href="../hobby/hobbies.html">My Hobbies</a></div>
+                    <div><a href="../achievements/achievements.html">Achievements</a></div>
+                    <div><a href="../slogans/fonts.html">Slogan spectrum</a></div>
+                    <div><a href="../startup/startup.html">Startup Ideas</a></div>
+            </div>
+            <ul id="menu">
+                <li><span id="menu">Menu</span>
+                    <ul id="menu2">
+                        <li><a href="../main.html">Home</a></li>
+                        <li><a href="../academics/qualifications.html">My Academics</a></li>
+                        <li><a href="../hobby/hobbies.html">My Hobbies</a></li>
+                        <li><a href="../achievements/achievements.html">Achievements</a></li>
+                        <li><a href="../slogans/fonts.html">Slogan spectrum</a></li>
+                        <li><a href="../startup/startup.html">Startup Ideas</a></li>
+                    </ul>
+                </li>
+  
+            </ul>
+        </div>
+    </nav>
+
+
+	<img src="../backgroundimg.jpg">
+	<form method="post" action="../main.html">
+		&nbsp;<lable for="fname"> First Name : </lable>&nbsp;&nbsp;
+		<input type="text" name="fname" id="fname" placeholder="Enter your first name" required>
+		<br><br>
+		&nbsp;<lable for="lname"> Last Name : </lable>&nbsp;&nbsp;
+		<input type="text" name="lname" id="lname" placeholder="Enter your last name" required>
+		<br><br>
+		&nbsp;<lable for="gender"> Select Gender : </lable>&nbsp;&nbsp;<br>
+		<input type="radio" name="gender" id="male" value="male">
+		&nbsp;<lable for="male">Male</lable>
+		&nbsp;&nbsp;
+		<input type="radio" name="gender" id="fremale" value="female">
+		&nbsp;<lable for="female">Female</lable>
+		<br><br>&nbsp;&nbsp;
+		<lable for="city">Select your city : </lable>
+		<select id="city" name="city">
+			<option value="Bharuch">Bharuch</option>
+			<option value="nadiad">Nadiad</option>
+			<option value="bhuj">Bhuj</option>
+		</select>			
+		<br><br>
+		&nbsp;&nbsp;<lable for="feedback">Give us your feedback about our services : </lable>
+		<br>&nbsp;&nbsp;
+		<textarea name="feedback" id="feedback" placeholder="Give us your feedback about our services, about problems if you have encountered or compliments..." rows="7" cols="40"></textarea><br><br>&nbsp;&nbsp;
+		<input type="submit" id="submit" value="SUBMIT" name="submit">
+	</form>
+	<div class="empty"></div>
+	<footer>
+        <span class="copywrite">All rights reserved &copy; By Dholakia Nishant Ashit</span>
+        <span class="contactus">
+			<a href="../contactme/contactme.html">Contact us</a>
+            &nbsp;
+            <a href="./form.html">Feedback Form</a>
+        </span>
+    </footer>
+</body>
+</html>
